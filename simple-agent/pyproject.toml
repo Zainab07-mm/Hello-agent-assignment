@@ -1,0 +1,16 @@
+[project]
+name = "simple-agent"
+version = "0.1.0"
+description = "A minimal Hello Agent project"
+requires-python = ">=3.9"
+dependencies = [
+    "python-dotenv",
+]
+
+[tool.setuptools]
+py-modules = ["main", "agent"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+

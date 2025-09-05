@@ -1,0 +1,20 @@
+[project]
+name = "packaged-agent"
+version = "0.1.0"
+description = "A packaged Hello Agent example"
+authors = [
+    { name = "Your Name" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "python-dotenv",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["packaged_agent"]
