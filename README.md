@@ -1,8 +1,8 @@
 # Hello_Agent_Assignment
-This repository contains two files 
-|simple-agent
-to run simple agent 
- uv run python simple-agent/main.py
-|packaged-agent
-to run packaged agent
- uv run python -m packaged_agent.main
+<br>This repository contains two files 
+<br>|simple-agent
+<br>*to run simple agent 
+ <br>uv run python simple-agent/main.py
+<br>|packaged-agent
+<br>*to run packaged agent
+ <br>uv run python -m packaged_agent.main
