@@ -14,3 +14,9 @@ To run the **Simple Agent**, use the following command:
 ```bash
 uv run python simple-agent/main.py
 
+## 🚀 Packaged Agent
+
+To run the **Packaged Agent**, use the following command:
+
+```bash
+uv run python -m packaged_agent.main
