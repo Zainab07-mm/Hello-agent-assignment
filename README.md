@@ -7,15 +7,12 @@ This repository contains two projects:
 
 ---
 
-## 🚀 Simple Agent
-
-To run the **Simple Agent**, use the following command:
+## 🚀 How to Run
 
 ```bash
+# Run Simple Agent
 uv run python simple-agent/main.py
 
-📦 Packaged Agent
-
-To run the Packaged Agent, use the following command:
-
+# Run Packaged Agent
 uv run python -m packaged_agent.main
+
